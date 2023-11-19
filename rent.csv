@@ -1,0 +1,15 @@
+PropertyId,DwellerEmail,TransactionId,RentStartDate
+2,user45@example.com,2,2023-03-01 00:00:00
+3,user44@example.com,3,2023-03-01 00:00:00
+4,user43@example.com,4,2023-04-01 00:00:00
+5,user42@example.com,5,2023-04-01 00:00:00
+6,user41@example.com,6,2023-05-01 00:00:00
+7,user40@example.com,7,2023-05-01 00:00:00
+8,user39@example.com,8,2023-06-01 00:00:00
+9,user38@example.com,9,2023-06-01 00:00:00
+10,user37@example.com,10,2023-07-01 00:00:00
+11,user36@example.com,11,2023-07-01 00:00:00
+12,user35@example.com,12,2023-08-01 00:00:00
+13,user34@example.com,13,2023-08-01 00:00:00
+14,user33@example.com,14,2023-09-01 00:00:00
+15,user32@example.com,15,2023-09-01 00:00:00

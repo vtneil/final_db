@@ -1,0 +1,51 @@
+IssueId,IssueType,IsResolved,IssueTimeStamp,IssueMessage,IssueImage,UserEmail
+1,Technical Issue,true,2023-01-15 12:30:00,Connection problem,https://placekitten.com/200/300,user1@example.com
+2,Payment Issue,false,2023-02-01 15:45:00,Transaction failed,https://placebear.com/200/300,user2@example.com
+3,Hardware Issue,true,2023-02-10 09:00:00,Device not working properly,https://placegoat.com/200/300,user3@example.com
+4,Login Issue,false,2023-03-05 14:30:00,Unable to log in,https://placekitten.com/200/301,user4@example.com
+5,Network Issue,true,2023-04-20 11:45:00,No internet connection,https://placebear.com/201/300,user5@example.com
+6,Technical Issue,false,2023-05-15 16:30:00,Software crash,https://placegoat.com/201/301,user6@example.com
+7,Payment Issue,true,2023-06-02 08:15:00,Payment processed successfully,https://placekitten.com/201/300,user7@example.com
+8,Account Issue,false,2023-07-10 13:00:00,Account not found,https://placebear.com/200/301,user8@example.com
+9,Service Issue,true,2023-08-18 17:45:00,Service outage,https://placegoat.com/200/300,user9@example.com
+10,Technical Issue,false,2023-09-23 10:30:00,Device overheating,https://placekitten.com/200/300,user10@example.com
+11,Payment Issue,true,2023-10-30 15:15:00,Refund processed,https://placebear.com/200/301,user11@example.com
+12,Hardware Issue,false,2023-11-05 08:30:00,Printer not responding,https://placegoat.com/201/300,user12@example.com
+13,Technical Issue,true,2023-12-12 14:45:00,Software update required,https://placekitten.com/201/301,user13@example.com
+14,Network Issue,false,2024-01-20 09:00:00,Slow internet,https://placebear.com/200/300,user14@example.com
+15,Payment Issue,true,2024-02-25 12:30:00,Payment declined,https://placegoat.com/201/300,user15@example.com
+16,Hardware Issue,false,2024-03-10 15:45:00,Device not recognized,https://placekitten.com/200/301,user16@example.com
+17,Technical Issue,true,2024-04-15 08:00:00,System error,https://placebear.com/201/300,user17@example.com
+18,Service Issue,false,2024-05-20 13:15:00,Service disruption,https://placegoat.com/200/300,user18@example.com
+19,Technical Issue,true,2024-06-25 17:30:00,Application crash,https://placekitten.com/201/301,user19@example.com
+20,Payment Issue,false,2024-07-30 10:45:00,Payment pending,https://placebear.com/200/300,user20@example.com
+21,Network Issue,true,2024-08-05 14:00:00,Connection timeout,https://placegoat.com/200/300,user21@example.com
+22,Hardware Issue,false,2024-09-10 17:15:00,Peripheral malfunction,https://placekitten.com/201/301,user22@example.com
+23,Technical Issue,true,2024-10-15 09:30:00,Software bug,https://placebear.com/201/300,user23@example.com
+24,Payment Issue,false,2024-11-20 12:45:00,Transaction incomplete,https://placegoat.com/200/300,user24@example.com
+25,Account Issue,true,2024-12-25 16:00:00,Account locked,https://placekitten.com/201/301,user25@example.com
+26,Technical Issue,false,2025-01-30 09:15:00,Application freeze,https://placebear.com/200/300,user26@example.com
+27,Hardware Issue,true,2025-02-04 13:30:00,Device driver error,https://placegoat.com/200/300,user27@example.com
+28,Network Issue,false,2025-03-10 16:45:00,Intermittent connectivity,https://placekitten.com/201/301,user28@example.com
+29,Technical Issue,true,2025-04-15 10:00:00,Functionality issue,https://placebear.com/201/300,user29@example.com
+30,Payment Issue,false,2025-05-20 13:15:00,Card not accepted,https://placegoat.com/200/300,user30@example.com
+31,Hardware Issue,true,2025-06-25 16:30:00,Peripheral not detected,https://placekitten.com/201/301,user31@example.com
+32,Technical Issue,false,2025-07-30 09:45:00,Software not responding,https://placebear.com/200/300,user32@example.com
+33,Service Issue,true,2025-08-04 13:00:00,Service unavailable,https://placegoat.com/200/300,user33@example.com
+34,Technical Issue,false,2025-09-09 16:15:00,Application error,https://placekitten.com/201/301,user34@example.com
+35,Payment Issue,true,2025-10-14 09:30:00,Payment successful,https://placebear.com/200/300,user35@example.com
+36,Network Issue,false,2025-11-19 12:45:00,Network congestion,https://placegoat.com/200/300,user36@example.com
+37,Technical Issue,true,2025-12-24 16:00:00,Software compatibility,https://placekitten.com/201/301,user37@example.com
+38,Hardware Issue,false,2026-01-29 09:15:00,Device heating issue,https://placebear.com/200/300,user38@example.com
+39,Technical Issue,true,2026-03-05 13:30:00,Application update required,https://placegoat.com/200/300,user39@example.com
+40,Service Issue,false,2026-04-10 16:45:00,Service degradation,https://placekitten.com/201/301,user40@example.com
+41,Technical Issue,true,2026-05-15 10:00:00,Function not working,https://placebear.com/201/300,user41@example.com
+42,Network Issue,false,2026-06-20 13:15:00,Network outage,https://placegoat.com/200/300,user42@example.com
+43,Technical Issue,true,2026-07-25 16:30:00,Software slowdown,https://placekitten.com/201/301,user43@example.com
+44,Payment Issue,false,2026-08-30 09:45:00,Payment error,https://placebear.com/200/300,user44@example.com
+45,Hardware Issue,true,2026-10-04 13:00:00,Peripheral connectivity,https://placegoat.com/200/300,user45@example.com
+46,Technical Issue,false,2026-11-09 16:15:00,Software glitch,https://placekitten.com/201/301,user46@example.com
+47,Service Issue,true,2026-12-14 09:30:00,Service interruption,https://placebear.com/201/300,user47@example.com
+48,Technical Issue,false,2027-01-19 12:45:00,Application crash,https://placegoat.com/200/300,user48@example.com
+49,Hardware Issue,true,2027-02-24 16:00:00,Device firmware issue,https://placekitten.com/201/301,user49@example.com
+50,Technical Issue,false,2027-03-31 09:15:00,Functionality glitch,https://placebear.com/200/300,user50@example.com

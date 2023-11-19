@@ -1,0 +1,16 @@
+PropertyId,DwellerEmail,ReviewTimeStamp,Image,Score,Description
+1,user16@example.com,2023-02-10 12:30:00,https://placekitten.com/200/300,4.2,Excellent location!
+2,user17@example.com,2023-03-05 15:15:00,https://placekitten.com/201/302,4.8,Amazing amenities!
+3,user18@example.com,2023-04-20 09:00:00,https://placekitten.com/202/303,3.9,Good value for money
+4,user19@example.com,2023-05-15 11:45:00,https://placekitten.com/203/304,4.6,Responsive management
+5,user20@example.com,2023-06-30 14:30:00,https://placekitten.com/204/305,4.0,Spacious rooms
+6,user21@example.com,2023-07-25 08:15:00,https://placekitten.com/205/306,4.3,Beautiful view!
+7,user22@example.com,2023-08-19 12:00:00,https://placekitten.com/206/307,4.7,Well-maintained property
+8,user23@example.com,2023-09-03 15:45:00,https://placekitten.com/207/308,3.5,Needs improvement
+9,user24@example.com,2023-10-18 09:30:00,https://placekitten.com/208/309,4.9,Highly recommended
+10,user25@example.com,2023-11-12 11:15:00,https://placekitten.com/209/310,4.4,Comfortable living
+11,user26@example.com,2023-12-27 14:00:00,https://placekitten.com/210/311,3.7,Friendly neighborhood
+12,user27@example.com,2024-01-21 08:45:00,https://placekitten.com/211/312,4.2,Good security measures
+13,user28@example.com,2024-02-15 12:30:00,https://placekitten.com/212/313,4.6,Convenient location
+14,user29@example.com,2024-03-01 15:15:00,https://placekitten.com/213/314,3.9,Decent facilities
+15,user30@example.com,2024-03-01 15:15:00,https://placekitten.com/214/315,0.1,What a fucking shit show!
