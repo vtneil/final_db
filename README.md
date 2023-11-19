@@ -10,7 +10,7 @@ This repository provides a Dockerized PostgreSQL database with pre-defined crede
 
 ```bash
 docker build -t mygres .
-docker run -d -p 5432:5432 --name mygres-container mygres
+docker run -d -p 5432:5432 --name mygres-container --rm mygres
 ```
 ## Environment Variables
 
