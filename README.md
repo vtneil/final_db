@@ -38,5 +38,8 @@ Password: admin
 
 Thank you for exploring the FinalGres PostgreSQL database! If you have any questions, encounter issues, or want to contribute, feel free to open an issue or pull request. Best of luck with your Database Systems Final Project!
 
+## Docker Hub
+For more details, you can also visit the [Docker Hub repository](https://hub.docker.com/repository/docker/tsunnami/finalegres/general).
+
 ## PS
 I will reorganize file structure when I have time <3
