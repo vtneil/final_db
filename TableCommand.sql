@@ -183,6 +183,3 @@ COPY RENT FROM '/docker-entrypoint-initdb.d/rent.csv' WITH CSV HEADER;
 COPY SELL FROM '/docker-entrypoint-initdb.d/sell.csv' WITH CSV HEADER;
 COPY IMAGE FROM '/docker-entrypoint-initdb.d/image.csv' WITH CSV HEADER;
 COPY APPOINTMENT FROM '/docker-entrypoint-initdb.d/appointment.csv' WITH CSV HEADER;
-
-
--- fix owner email
