@@ -1,4 +1,4 @@
-# FinalGres
+# FinaleGres
 
 PostgreSQL database for the Final Project of Database Systems.
 
