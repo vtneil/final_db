@@ -1,5 +1,7 @@
 # FinaleGres
 
+**!!!see `Table.sql` for Refernces!!!**
+
 PostgreSQL database for the Final Project of Database Systems.
 
 This repository provides a Dockerized PostgreSQL database with pre-defined credentials. It includes a sample SQL script (`TableCommand.sql`) to set up tables and sample data.
