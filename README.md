@@ -87,6 +87,13 @@ Ensure you have Docker and Docker Compose installed on your machine.
 
     This will pull the necessary Docker images and create the containers.
 
+    **If it doesn't allow connection**:
+    Pull image to your local machine first
+
+    ```bash
+    docker pull tsunnami/finalegres:latest
+    ```
+
 3. Wait for the containers to start.
 
 4. Access pgAdmin4 in your web browser at [http://localhost:8888](http://localhost:8888).
