@@ -1,5 +1,5 @@
 -- Create a custom URL type
-CREATE DOMAIN url AS VARCHAR(2000)
+CREATE DOMAIN URL AS VARCHAR(2000)
   CHECK (VALUE ~* '^https?://[^\s]+$');
 
 -- company table
@@ -8,6 +8,14 @@ CREATE TABLE company (
     company_name VARCHAR(35) NOT NULL,
     company_address VARCHAR(300) NOT NULL,
     company_phone CHAR(14) NOT NULL
+);
+
+-- admin table
+CREATE TABLE admin (
+    admin_id UUID PRIMARY KEY NOT NULL,
+    admin_fname VARCHAR(35) NOT NULL,
+    admin_lname VARCHAR(35) NOT NULL,
+    admin_phone CHAR(14) NOT NULL
 );
 
 -- advertisement table
@@ -19,20 +27,12 @@ CREATE TABLE advertisement (
     admin_id UUID REFERENCES admin(admin_id) NOT NULL
 );
 
--- admin table
-CREATE TABLE admin (
-    admin_id UUID PRIMARY KEY NOT NULL,
-    admin_fname VARCHAR(35) NOT NULL,
-    admin_lname VARCHAR(35) NOT NULL,
-    admin_phone CHAR(14) NOT NULL
-);
-
 -- user table
 CREATE TABLE "user" (
     email VARCHAR(319) PRIMARY KEY NOT NULL,
     fname VARCHAR(35) NOT NULL,
     lname VARCHAR(35) NOT NULL,
-    profile_image url,
+    profile_image URL,
     expired_date_kyc TIMESTAMP WITHOUT TIME ZONE
 );
 
@@ -43,7 +43,7 @@ CREATE TABLE issue (
     is_resolved BOOLEAN NOT NULL,
     issue_time_stamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
     issue_message TEXT NOT NULL,
-    issue_image url,
+    issue_image URL,
     user_email VARCHAR(319) REFERENCES "user"(email) NOT NULL 
 );
 
@@ -70,8 +70,8 @@ CREATE TABLE property_review (
     property_id UUID PRIMARY KEY NOT NULL,
     dweller_email VARCHAR(319) REFERENCES dweller(dweller_email) NOT NULL,
     review_time_stamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
-    image url,
-    score DOUBLE PRECISION NOT NULL,
+    image URL,
+    score DOUBLE PRECISION NOT NULL CHECK (score >= 0 AND score <= 5),
     description TEXT NOT NULL
 );
 
@@ -117,7 +117,7 @@ CREATE TABLE appointment (
 -- image table
 CREATE TABLE image (
     property_id UUID REFERENCES property_listing(property_id) NOT NULL,
-    image url NOT NULL,
+    image URL NOT NULL,
     PRIMARY KEY (property_id, image)
 );
 

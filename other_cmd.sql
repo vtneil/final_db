@@ -1,7 +1,7 @@
 -- Insert
 -- Insert a new admin if they don't exist already
 INSERT INTO admin (admin_id, admin_fname, admin_lname, admin_phone)
-SELECT 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a', 'John', 'Doe', '+1234567890'
+SELECT 'be4fb0db-9e5f-46f9-a82f-067d7a08a77b', 'John2', 'Doe2', '+1234567890'
 WHERE NOT EXISTS (SELECT 1
                   FROM admin
                   WHERE admin_phone = '+1234567890');
@@ -12,12 +12,10 @@ VALUES ('1c2d06ec-9746-4461-b833-dfe143d322b4', CURRENT_TIMESTAMP, 'fd776b35-6e6
 
 
 -- Update
--- Update admin's phone number only if the new number is unique
-UPDATE admin
-SET admin_phone = '+1987654321'
-WHERE admin_id = 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a'
-  AND NOT EXISTS (SELECT 1 FROM admin WHERE admin_phone = '+1987654321' AND admin_id != 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a');
-
+UPDATE property_review
+    SET score = 99
+WHERE
+    property_id = '1c2d06ec-9746-4461-b833-dfe143d322b4';
 
 -- Delete
 -- Delete property listing only if there are no appointments and images referencing it
