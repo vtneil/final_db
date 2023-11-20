@@ -1,31 +1,31 @@
-PropertyId,OwnerEmail,OwnerContact,Image,Description,ResidentialType,ProjectName,Address,Alley,Street,SubDistrict,District,Province,Country,PostalCode,PropertyListTimeStamp
-1,user1@example.com,123-456-7890,https://example.com/image1.jpg,Cozy apartment,Apartment Complex,ABC Residency,789 Oak St,Sunnydale,Main St,West Suburb,CityA,StateA,CountryA,12345,2023-01-01 14:00:00
-2,user2@example.com,234-567-8901,https://example.com/image2.jpg,Spacious house,House Project,XYZ Estates,456 Maple St,Hilltop,Maple St,East Suburb,CityB,StateB,CountryB,23456,2023-02-01 14:30:00
-3,user3@example.com,345-678-9012,https://example.com/image3.jpg,Modern condo,Condo Tower,DEF Condos,678 Pine St,Meadow,Pine St,North Suburb,CityC,StateC,CountryC,34567,2023-03-01 15:00:00
-4,user4@example.com,456-789-0123,https://example.com/image4.jpg,Luxury villa,Villa Resort,GHI Villas,890 Birch St,River,Birch St,South Suburb,CityD,StateD,CountryD,45678,2023-04-01 15:30:00
-5,user5@example.com,567-890-1234,https://example.com/image5.jpg,Country cottage,Cottage Retreat,JKL Cottages,123 Cedar St,Forest,Cedar St,West Suburb,CityE,StateE,CountryE,56789,2023-05-01 16:00:00
-6,user6@example.com,678-901-2345,https://example.com/image6.jpg,Urban loft,Loft Living,MNO Lofts,234 Elm St,Hillside,Elm St,East Suburb,CityF,StateF,CountryF,67890,2023-06-01 16:30:00
-7,user7@example.com,789-012-3456,https://example.com/image7.jpg,Beachfront house,Beach House Project,PQR Beach Homes,345 Oak St,Lakeside,Oak St,North Suburb,CityG,StateG,CountryG,78901,2023-07-01 17:00:00
-8,user8@example.com,890-123-4567,https://example.com/image8.jpg,Mountain retreat,Mountain Project,STU Retreats,456 Pine St,Mountain,Pine St,South Suburb,CityH,StateH,CountryH,89012,2023-08-01 17:30:00
-9,user9@example.com,901-234-5678,https://example.com/image9.jpg,City apartment,Apartments City,VWX Apartments,567 Maple St,Urban,Maple St,West Suburb,CityI,StateI,CountryI,90123,2023-09-01 18:00:00
-10,user10@example.com,012-345-6789,https://example.com/image10.jpg,Lakeside cabin,Cabin Getaway,YZ Cabins,678 Birch St,Seaside,Birch St,East Suburb,CityJ,StateJ,CountryJ,01234,2023-10-01 18:30:00
-11,user11@example.com,123-456-7890,https://example.com/image11.jpg,Family home,Family Home Project,ABC Homes,789 Cedar St,Maplewood,Cedar St,North Suburb,CityK,StateK,CountryK,12345,2023-11-01 19:00:00
-12,user12@example.com,234-567-8901,https://example.com/image12.jpg,Urban townhouse,Townhouse City,XYZ Townhomes,890 Elm St,Riverdale,Elm St,South Suburb,CityL,StateL,CountryL,23456,2023-12-01 19:30:00
-13,user13@example.com,345-678-9012,https://example.com/image13.jpg,Coastal cottage,Cottage Coastal,DEF Cottages,123 Oak St,Sunset,Oak St,West Suburb,CityM,StateM,CountryM,34567,2024-01-01 20:00:00
-14,user14@example.com,456-789-0123,https://example.com/image14.jpg,Suburban residence,Residence Suburban,GHI Residences,234 Pine St,Valley,Pine St,East Suburb,CityN,StateN,CountryN,45678,2024-02-01 20:30:00
-15,user15@example.com,567-890-1234,https://example.com/image15.jpg,Hilltop estate,Hill Estate,JKL Hill Estates,345 Maple St,Harbor,Maple St,North Suburb,CityO,StateO,CountryO,56789,2024-03-01 21:00:00
-16,user1@example.com,678-901-2345,https://example.com/image16.jpg,Modern penthouse,Penthouse Modern,MNO Penthouses,456 Birch St,Downtown,Birch St,South Suburb,CityP,StateP,CountryP,67890,2024-04-01 21:30:00
-17,user2@example.com,789-012-3456,https://example.com/image17.jpg,Charming bungalow,Bungalow Charm,PQR Bungalows,567 Cedar St,Meadowlark,Cedar St,West Suburb,CityQ,StateQ,CountryQ,78901,2024-05-01 22:00:00
-18,user3@example.com,890-123-4567,https://example.com/image18.jpg,Riverside retreat,Riverside Project,STU Riverside Retreats,678 Elm St,Riverside,Elm St,East Suburb,CityR,StateR,CountryR,89012,2024-06-01 22:30:00
-19,user4@example.com,901-234-5678,https://example.com/image19.jpg,Classic mansion,Mansion Classic,VWX Mansions,789 Oak St,Southview,Oak St,North Suburb,CityS,StateS,CountryS,90123,2024-07-01 23:00:00
-20,user5@example.com,012-345-6789,https://example.com/image20.jpg,Beachside property,Beachside Project,YZ Beach Properties,890 Pine St,Sunrise,Pine St,South Suburb,CityT,StateT,CountryT,01234,2024-08-01 23:30:00
-21,user6@example.com,123-456-7890,https://example.com/image21.jpg,Lakefront cottage,Cottage Lakefront,ABC Lakefront Cottages,123 Cedar St,Greenwood,Cedar St,West Suburb,CityU,StateU,CountryU,12345,2024-09-01 00:00:00
-22,user7@example.com,234-567-8901,https://example.com/image22.jpg,Upscale townhome,Townhome Upscale,XYZ Townhomes,234 Birch St,Magnolia,Birch St,East Suburb,CityV,StateV,CountryV,23456,2024-10-01 00:30:00
-23,user8@example.com,345-678-9012,https://example.com/image23.jpg,Skyline view apartment,Apartments Skyline View,DEF Apartments,345 Maple St,Highland,Maple St,North Suburb,CityW,StateW,CountryW,34567,2024-11-01 01:00:00
-24,user9@example.com,456-789-0123,https://example.com/image24.jpg,Historic residence,Residence Historic,GHI Historic Homes,456 Pine St,Ridge,Pine St,South Suburb,CityX,StateX,CountryX,45678,2024-12-01 01:30:00
-25,user10@example.com,567-890-1234,https://example.com/image25.jpg,Seaside villa,Villa Seaside,JKL Seaside Villas,567 Oak St,Harmony,Oak St,West Suburb,CityY,StateY,CountryY,56789,2025-01-01 02:00:00
-26,user11@example.com,678-901-2345,https://example.com/image26.jpg,Cityscape penthouse,Penthouse Cityscape,MNO Penthouses,678 Elm St,Elmdale,Elm St,East Suburb,CityZ,StateZ,CountryZ,67890,2025-02-01 02:30:00
-27,user12@example.com,789-012-3456,https://example.com/image27.jpg,Mountain view retreat,Retreat Mountain View,PQR Mountain Retreats,789 Cedar St,Mountainview,Cedar St,North Suburb,CityAA,StateAA,CountryAA,78901,2025-03-01 03:00:00
-28,user13@example.com,890-123-4567,https://example.com/image28.jpg,Modern city apartment,Apartments Modern City,STU Apartments,890 Maple St,Woodland,Maple St,South Suburb,CityBB,StateBB,CountryBB,89012,2025-04-01 03:30:00
-29,user14@example.com,901-234-5678,https://example.com/image29.jpg,Waterfront mansion,Mansion Waterfront,VWX Waterfront Mansions,123 Birch St,Riverwood,Birch St,West Suburb,CityCC,StateCC,CountryCC,90123,2025-05-01 04:00:00
-30,user15@example.com,012-345-6789,https://example.com/image30.jpg,Serenity cottage,Cottage Serenity,YZ Serenity Cottages,234 Pine St,Morningview,Pine St,East Suburb,CityDD,StateDD,CountryDD,01234,2025-06-01 04:30:00
+PropertyId,OwnerEmail,OwnerContact,Description,ResidentialType,ProjectName,Address,Alley,Street,SubDistrict,District,Province,Country,PostalCode,PropertyListTimeStamp
+1,user1@example.com,123-456-7890,Cozy apartment,Apartment Complex,ABC Residency,789 Oak St,Sunnydale,Main St,West Suburb,CityA,StateA,CountryA,12345,2023-01-01 14:00:00
+2,user2@example.com,234-567-8901,Spacious house,House Project,XYZ Estates,456 Maple St,Hilltop,Maple St,East Suburb,CityB,StateB,CountryB,23456,2023-02-01 14:30:00
+3,user3@example.com,345-678-9012,Modern condo,Condo Tower,DEF Condos,678 Pine St,Meadow,Pine St,North Suburb,CityC,StateC,CountryC,34567,2023-03-01 15:00:00
+4,user4@example.com,456-789-0123,Luxury villa,Villa Resort,GHI Villas,890 Birch St,River,Birch St,South Suburb,CityD,StateD,CountryD,45678,2023-04-01 15:30:00
+5,user5@example.com,567-890-1234,Country cottage,Cottage Retreat,JKL Cottages,123 Cedar St,Forest,Cedar St,West Suburb,CityE,StateE,CountryE,56789,2023-05-01 16:00:00
+6,user6@example.com,678-901-2345,Urban loft,Loft Living,MNO Lofts,234 Elm St,Hillside,Elm St,East Suburb,CityF,StateF,CountryF,67890,2023-06-01 16:30:00
+7,user7@example.com,789-012-3456,Beachfront house,Beach House Project,PQR Beach Homes,345 Oak St,Lakeside,Oak St,North Suburb,CityG,StateG,CountryG,78901,2023-07-01 17:00:00
+8,user8@example.com,890-123-4567,Mountain retreat,Mountain Project,STU Retreats,456 Pine St,Mountain,Pine St,South Suburb,CityH,StateH,CountryH,89012,2023-08-01 17:30:00
+9,user9@example.com,901-234-5678,City apartment,Apartments City,VWX Apartments,567 Maple St,Urban,Maple St,West Suburb,CityI,StateI,CountryI,90123,2023-09-01 18:00:00
+10,user10@example.com,012-345-6789,Lakeside cabin,Cabin Getaway,YZ Cabins,678 Birch St,Seaside,Birch St,East Suburb,CityJ,StateJ,CountryJ,01234,2023-10-01 18:30:00
+11,user11@example.com,123-456-7890,Family home,Family Home Project,ABC Homes,789 Cedar St,Maplewood,Cedar St,North Suburb,CityK,StateK,CountryK,12345,2023-11-01 19:00:00
+12,user12@example.com,234-567-8901,Urban townhouse,Townhouse City,XYZ Townhomes,890 Elm St,Riverdale,Elm St,South Suburb,CityL,StateL,CountryL,23456,2023-12-01 19:30:00
+13,user13@example.com,345-678-9012,Coastal cottage,Cottage Coastal,DEF Cottages,123 Oak St,Sunset,Oak St,West Suburb,CityM,StateM,CountryM,34567,2024-01-01 20:00:00
+14,user14@example.com,456-789-0123,Suburban residence,Residence Suburban,GHI Residences,234 Pine St,Valley,Pine St,East Suburb,CityN,StateN,CountryN,45678,2024-02-01 20:30:00
+15,user15@example.com,567-890-1234,Hilltop estate,Hill Estate,JKL Hill Estates,345 Maple St,Harbor,Maple St,North Suburb,CityO,StateO,CountryO,56789,2024-03-01 21:00:00
+16,user1@example.com,678-901-2345,Modern penthouse,Penthouse Modern,MNO Penthouses,456 Birch St,Downtown,Birch St,South Suburb,CityP,StateP,CountryP,67890,2024-04-01 21:30:00
+17,user2@example.com,789-012-3456,Charming bungalow,Bungalow Charm,PQR Bungalows,567 Cedar St,Meadowlark,Cedar St,West Suburb,CityQ,StateQ,CountryQ,78901,2024-05-01 22:00:00
+18,user3@example.com,890-123-4567,Riverside retreat,Riverside Project,STU Riverside Retreats,678 Elm St,Riverside,Elm St,East Suburb,CityR,StateR,CountryR,89012,2024-06-01 22:30:00
+19,user4@example.com,901-234-5678,Classic mansion,Mansion Classic,VWX Mansions,789 Oak St,Southview,Oak St,North Suburb,CityS,StateS,CountryS,90123,2024-07-01 23:00:00
+20,user5@example.com,012-345-6789,Beachside property,Beachside Project,YZ Beach Properties,890 Pine St,Sunrise,Pine St,South Suburb,CityT,StateT,CountryT,01234,2024-08-01 23:30:00
+21,user6@example.com,123-456-7890,Lakefront cottage,Cottage Lakefront,ABC Lakefront Cottages,123 Cedar St,Greenwood,Cedar St,West Suburb,CityU,StateU,CountryU,12345,2024-09-01 00:00:00
+22,user7@example.com,234-567-8901,Upscale townhome,Townhome Upscale,XYZ Townhomes,234 Birch St,Magnolia,Birch St,East Suburb,CityV,StateV,CountryV,23456,2024-10-01 00:30:00
+23,user8@example.com,345-678-9012,Skyline view apartment,Apartments Skyline View,DEF Apartments,345 Maple St,Highland,Maple St,North Suburb,CityW,StateW,CountryW,34567,2024-11-01 01:00:00
+24,user9@example.com,456-789-0123,Historic residence,Residence Historic,GHI Historic Homes,456 Pine St,Ridge,Pine St,South Suburb,CityX,StateX,CountryX,45678,2024-12-01 01:30:00
+25,user10@example.com,567-890-1234,Seaside villa,Villa Seaside,JKL Seaside Villas,567 Oak St,Harmony,Oak St,West Suburb,CityY,StateY,CountryY,56789,2025-01-01 02:00:00
+26,user11@example.com,678-901-2345,Cityscape penthouse,Penthouse Cityscape,MNO Penthouses,678 Elm St,Elmdale,Elm St,East Suburb,CityZ,StateZ,CountryZ,67890,2025-02-01 02:30:00
+27,user12@example.com,789-012-3456,Mountain view retreat,Retreat Mountain View,PQR Mountain Retreats,789 Cedar St,Mountainview,Cedar St,North Suburb,CityAA,StateAA,CountryAA,78901,2025-03-01 03:00:00
+28,user13@example.com,890-123-4567,Modern city apartment,Apartments Modern City,STU Apartments,890 Maple St,Woodland,Maple St,South Suburb,CityBB,StateBB,CountryBB,89012,2025-04-01 03:30:00
+29,user14@example.com,901-234-5678,Waterfront mansion,Mansion Waterfront,VWX Waterfront Mansions,123 Birch St,Riverwood,Birch St,West Suburb,CityCC,StateCC,CountryCC,90123,2025-05-01 04:00:00
+30,user15@example.com,012-345-6789,Serenity cottage,Cottage Serenity,YZ Serenity Cottages,234 Pine St,Morningview,Pine St,East Suburb,CityDD,StateDD,CountryDD,01234,2025-06-01 04:30:00

@@ -83,11 +83,11 @@ CREATE TABLE "like" (
 );
 
 -- property_listing table
+-- Remove Image from property-listing table
 CREATE TABLE property_listing (
     property_id UUID PRIMARY KEY NOT NULL,
     owner_email VARCHAR(319) REFERENCES owner(owner_email) NOT NULL,
     owner_contact VARCHAR(100) NOT NULL,
-    image url NOT NULL,
     description TEXT NOT NULL,
     residential_type VARCHAR(99) NOT NULL,
     project_name VARCHAR(50),
