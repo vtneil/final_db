@@ -113,7 +113,11 @@ Now, you have a running PostgreSQL database with pgAdmin4 for easy database mana
 **Note**: Ensure that the containers are running and accessible before attempting to connect to pgAdmin4.
 
 ## Issues
+
 If you encounter any issues or have questions, feel free to open an issue or reach out for assistance.
+
+- If connection refuse to pull mygres from using `docker-compose.yml` => pull the image from docker-hub manually to your local machine. Then docker-compose command should works normally
+- Naming conflict, I have updated the name of pgadmin4 to not conflict with the existing name (should not comflict "maybe?")
 
 ## Special Thanks
 
