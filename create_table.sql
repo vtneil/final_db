@@ -16,7 +16,7 @@ CREATE TABLE advertisement (
     start_date TIMESTAMP WITHOUT TIME ZONE NOT NULL,
     end_date TIMESTAMP WITHOUT TIME ZONE,
     company_id UUID REFERENCES company(company_id) NOT NULL,
-    admin_id UUID NOT NULL
+    admin_id UUID REFERENCES admin(admin_id) NOT NULL
 );
 
 -- admin table

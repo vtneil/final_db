@@ -1,0 +1,19 @@
+-- copy csv
+COPY COMPANY FROM '/docker-entrypoint-initdb.d/company.csv' WITH CSV HEADER;
+COPY ADVERTISEMENT FROM '/docker-entrypoint-initdb.d/advertisment.csv' WITH CSV HEADER;
+COPY "user" FROM '/docker-entrypoint-initdb.d/user.csv' WITH CSV HEADER;
+COPY ADMIN FROM '/docker-entrypoint-initdb.d/admin.csv' WITH CSV HEADER;
+COPY OWNER FROM '/docker-entrypoint-initdb.d/owner.csv' WITH CSV HEADER;
+COPY DWELLER FROM '/docker-entrypoint-initdb.d/dweller.csv' WITH CSV HEADER;
+COPY ISSUE FROM '/docker-entrypoint-initdb.d/issue.csv' WITH CSV HEADER;
+COPY ISSUE_REVIEW FROM '/docker-entrypoint-initdb.d/issue_review.csv' WITH CSV HEADER;
+COPY property_review FROM '/docker-entrypoint-initdb.d/property_review.csv' WITH CSV HEADER;
+COPY "like" FROM '/docker-entrypoint-initdb.d/like.csv' WITH CSV HEADER;
+COPY PROPERTY_LISTING FROM '/docker-entrypoint-initdb.d/property_listing.csv' WITH CSV HEADER;
+COPY PROPERTY_LISTING_FOR_SELL FROM '/docker-entrypoint-initdb.d/property_for_sale.csv' WITH CSV HEADER;
+COPY PROPERTY_LISTING_FOR_RENT  FROM '/docker-entrypoint-initdb.d/property_for_rent.csv' WITH CSV HEADER;
+COPY TRANSACTION FROM '/docker-entrypoint-initdb.d/transaction.csv' WITH CSV HEADER;
+COPY RENT FROM '/docker-entrypoint-initdb.d/rent.csv' WITH CSV HEADER;
+COPY SELL FROM '/docker-entrypoint-initdb.d/sell.csv' WITH CSV HEADER;
+COPY IMAGE FROM '/docker-entrypoint-initdb.d/image.csv' WITH CSV HEADER;
+COPY APPOINTMENT FROM '/docker-entrypoint-initdb.d/appointment.csv' WITH CSV HEADER;
