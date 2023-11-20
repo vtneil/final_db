@@ -1,19 +1,42 @@
 # FinaleGres
 
-**!!!see `Table.sql` for Refernces!!!**
+**!!!see `Table.sql` for References!!!**
 
 PostgreSQL database for the Final Project of Database Systems.
 
 This repository provides a Dockerized PostgreSQL database with pre-defined credentials. It includes a sample SQL script (`TableCommand.sql`) to set up tables and sample data.
 
-## Usage
 
-#### Build the Docker Image and Run the Docker Container
+<details>
+  <summary><strong>Table of Contents</strong></summary>
+
+- [FinaleGres](#finalegres)
+  - [Usage](#usage)
+  - [Environment Variables](#environment-variables)
+  - [Connecting to the Database](#connecting-to-the-database)
+  - [Docker Hub](#docker-hub)
+  - [With Pdadmin4 Container](#with-pdadmin4-container)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Issues](#issues)
+  - [Special Thanks](#special-thanks)
+
+</details>
+
+
+## Usage
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/HEKYPTO/FinaleGres.git
+cd FinaleGres
+```
+2. Build the Docker Image and Run the Docker Container
 
 ```bash
 docker build -t mygres .
 docker run -d -p 5432:5432 --name mygres-container --rm mygres
 ```
+
 ## Environment Variables
 
 The following environment variables are set within the Dockerfile:
@@ -41,5 +64,61 @@ Thank you for exploring the FinalGres PostgreSQL database! If you have any quest
 ## Docker Hub
 For more details, you can also visit the [Docker Hub repository](https://hub.docker.com/repository/docker/tsunnami/finalegres/general).
 
-## PS
-I will reorganize file structure when I have time <3
+## With Pdadmin4 Container
+
+### Prerequisites
+
+Ensure you have Docker and Docker Compose installed on your machine.
+
+### Steps
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/HEKYPTO/FinaleGres.git
+    cd FinaleGres
+    ```
+
+2. Run the following command to start the containers:
+
+    ```bash
+    docker-compose up -d
+    ```
+
+    This will pull the necessary Docker images and create the containers.
+
+3. Wait for the containers to start.
+
+4. Access pgAdmin4 in your web browser at [http://localhost:8888](http://localhost:8888).
+
+5. Log in with the default credentials:
+
+    ```txt
+    PGADMIN_DEFAULT_EMAIL: admin@admin.com
+    PGADMIN_DEFAULT_PASSWORD: admin
+    ```
+
+6. In pgAdmin4, add a new server to connect to the PostgreSQL container using the following connection details:
+
+    ```txt
+    Name: /*Anything you want*/
+    Hostname/address: mygres
+    Port: 5432
+    Username: admin
+    Password: admin
+    ```
+
+Now, you have a running PostgreSQL database with pgAdmin4 for easy database management through a web interface.
+
+**Note**: Ensure that the containers are running and accessible before attempting to connect to pgAdmin4.
+
+## Issues
+If you encounter any issues or have questions, feel free to open an issue or reach out for assistance.
+
+## Special Thanks
+
+A special thanks to [vishal.sharma](https://medium.com/@vishal.sharma.) for providing an insightful guide on running PostgreSQL and PGAdmin using Docker Compose. The guide, available on [Medium](https://medium.com/@vishal.sharma./run-postgresql-and-pgadmin-using-docker-compose-34120618bcf9), has been invaluable in understanding and setting up our project.
+
+Your contribution to the community and the clarity of your guide have greatly benefited our project. Thank you for sharing your expertise!
+
+If you've contributed to FinaleGres in any way, even if it's just raising an issue or providing feedback, thank you for being part of this project!
