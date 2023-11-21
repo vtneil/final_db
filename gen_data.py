@@ -146,18 +146,6 @@ issue_reviews = [{'admin_id': random.choice(admins)['admin_id'],
                   'issue_id': random.choice(issues)['issue_id'],
                   'date_resolved': generate_timestamp()} for _ in range(num_entries)]
 
-# property_review table data
-property_reviews = [{'property_id': str(gen_uuid4()),
-                     'dweller_email': random.choice(dwellers)['dweller_email'],
-                     'review_time_stamp': generate_timestamp(),
-                     'image': generate_url(),
-                     'score': generate_score(),
-                     'description': generate_text(20)} for _ in range(num_entries)]
-
-# like table data
-likes = [{'property_id': random.choice(property_reviews)['property_id'],
-          'dweller_email': random.choice(dwellers)['dweller_email']} for _ in range(num_entries)]
-
 # property_listing table data
 property_listings = [{'property_id': str(gen_uuid4()),
                       'owner_email': random.choice(owners)['owner_email'],
@@ -174,6 +162,19 @@ property_listings = [{'property_id': str(gen_uuid4()),
                       'country': generate_name(),
                       'postal_code': ''.join([str(random.randint(0, 9)) for _ in range(5)]),
                       'property_list_time_stamp': generate_timestamp()} for _ in range(num_entries)]
+
+# property_review table data
+property_reviews = [{'property_id': random.choice(property_listings)['property_id'],
+                     'dweller_email': random.choice(dwellers)['dweller_email'],
+                     'review_time_stamp': generate_timestamp(),
+                     'image': generate_url(),
+                     'score': generate_score(),
+                     'description': generate_text(20)} for _ in range(num_entries)]
+
+# like table data
+likes = [{'property_id': random.choice(property_reviews)['property_id'],
+          'dweller_email': random.choice(dwellers)['dweller_email']} for _ in range(num_entries)]
+
 
 # appointment table data
 appointments = [{'appointment_id': str(gen_uuid4()),

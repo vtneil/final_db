@@ -11,9 +11,8 @@ WHERE NOT EXISTS (SELECT 1
 
 -- Update
 UPDATE property_review
-    SET score = 99
-WHERE
-    property_id = '702e7e08-9635-4b13-ae37-3de43c82fc83';
+SET score = 99
+WHERE property_id = '702e7e08-9635-4b13-ae37-3de43c82fc83';
 
 -- Delete
 DELETE
