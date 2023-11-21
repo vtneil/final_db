@@ -151,7 +151,7 @@ CREATE TABLE rent (
     dweller_email VARCHAR(319) REFERENCES dweller(dweller_email) NOT NULL,
     transaction_id UUID REFERENCES transaction(transaction_id) NOT NULL,
     rent_start_date TIMESTAMP WITHOUT TIME ZONE NOT NULL,
-    PRIMARY KEY (property_id, dweller_email)
+    PRIMARY KEY (transaction_id)
 );
 
 -- sell table
@@ -159,5 +159,5 @@ CREATE TABLE sell (
     property_id UUID REFERENCES property_listing_for_sell(property_id) NOT NULL,
     dweller_email VARCHAR(319) REFERENCES dweller(dweller_email) NOT NULL,
     transaction_id UUID REFERENCES transaction(transaction_id) NOT NULL,
-    PRIMARY KEY (property_id, dweller_email)
+    PRIMARY KEY (transaction_id)
 );
