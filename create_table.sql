@@ -2,6 +2,42 @@
 CREATE DOMAIN URL AS VARCHAR(2000)
   CHECK (VALUE ~* '^https?://[^\s]+$');
 
+drop table if exists advertisement cascade;
+
+drop table if exists company cascade;
+
+drop table if exists issue_review cascade;
+
+drop table if exists admin cascade;
+
+drop table if exists issue cascade;
+
+drop table if exists "like" cascade;
+
+drop table if exists property_review cascade;
+
+drop table if exists appointment cascade;
+
+drop table if exists image cascade;
+
+drop table if exists rent cascade;
+
+drop table if exists property_listing_for_rent cascade;
+
+drop table if exists sell cascade;
+
+drop table if exists dweller cascade;
+
+drop table if exists property_listing_for_sell cascade;
+
+drop table if exists property_listing cascade;
+
+drop table if exists owner cascade;
+
+drop table if exists "user" cascade;
+
+drop table if exists transaction cascade;
+
 -- company table
 CREATE TABLE company (
     company_id UUID PRIMARY KEY NOT NULL,
