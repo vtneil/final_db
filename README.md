@@ -4,7 +4,7 @@
 
 PostgreSQL database for the Final Project of Database Systems.
 
-This repository provides a Dockerized PostgreSQL database with pre-defined credentials. It includes a sample SQL script (`other_cmd.sql`) to set up tables and sample data.
+This repository provides a Dockerized PostgreSQL database with pre-defined credentials. It includes a sample SQL script (`cmd_ins_upd_del.sql`) to set up tables and sample data.
 
 
 <details>

@@ -16,13 +16,17 @@ WHERE
     property_id = '702e7e08-9635-4b13-ae37-3de43c82fc83';
 
 -- Delete
+DELETE
+FROM property_listing
+WHERE property_id = '53bcb106-9c6d-4e8f-b3ee-2ef6d7f75561';
+
 -- Delete property listing only if there are no appointments and images referencing it
 DELETE
 FROM property_listing
-WHERE property_id = 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a'
+WHERE property_id = '53bcb106-9c6d-4e8f-b3ee-2ef6d7f75561'
   AND NOT EXISTS (SELECT 1
                   FROM appointment
-                  WHERE property_id = 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a')
+                  WHERE property_id = '53bcb106-9c6d-4e8f-b3ee-2ef6d7f75561')
   AND NOT EXISTS (SELECT 1
                   FROM image
-                  WHERE property_id = 'be4fb0db-9e5f-46f9-a82f-067d7a08a77a');
+                  WHERE property_id = '53bcb106-9c6d-4e8f-b3ee-2ef6d7f75561');

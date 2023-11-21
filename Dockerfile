@@ -9,7 +9,7 @@ ENV POSTGRES_PASSWORD=admin
 # Add your SQL script and CSV files to the docker-entrypoint-initdb.d/ directory
 COPY create_table.sql /docker-entrypoint-initdb.d/
 COPY copy_data.sql /docker-entrypoint-initdb.d/
-COPY other_cmd.sql /docker-entrypoint-initdb.d/
+COPY cmd_ins_upd_del.sql /docker-entrypoint-initdb.d/
 COPY data/*.csv /docker-entrypoint-initdb.d/ 
 
 # Expose the PostgreSQL port (not necessary if you're running in the default network mode)
