@@ -1,8 +1,8 @@
 # final_db
 
-1. `create_table.sql`
-2. `create_indexing.sql`
-3. `gen_data.sql`
+1. `create_table.sql` to generate table.
+2. `create_indexing.sql` to create indexing and clustering.
+3. `gen_data.sql` to fill randomized data. Should be good.
 4. Demos (run each block, not all.)
 
 ## Demos
