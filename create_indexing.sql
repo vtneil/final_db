@@ -1,3 +1,5 @@
+-- Indexing: no need to run.
+
 CREATE INDEX idx_district ON property_listing(district);
 
 CREATE INDEX idx_price_sell ON property_listing_for_sell(price);

@@ -38,10 +38,11 @@ BEGIN
 END
 $$;
 
+-- Demo
 -- RUN FUNCTIONS
 
 -- RUN FUNCTION 1
-SELECT * FROM get_property_rent_by_range(3000, 0);
+SELECT * FROM get_property_rent_by_range(2000, 1000);
 
 -- RUN FUNCTION 2
 SELECT * FROM search_property_by_keyword('%sequi%')

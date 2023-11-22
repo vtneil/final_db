@@ -1,5 +1,5 @@
 -- PROCEDURE 1
-drop procedure;
+
 CREATE OR REPLACE PROCEDURE init_transaction(
     prpty_id UUID,
     dwllr_email VARCHAR(319),

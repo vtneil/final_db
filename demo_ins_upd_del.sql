@@ -13,7 +13,7 @@ WHERE NOT EXISTS (SELECT 1
 INSERT INTO property_review (property_id, dweller_email, review_time_stamp, image, score, description)
 SELECT '702e7e08-9635-4b13-ae37-3de43c82fc83', 'Linda.Leonard@vt.in.th', '2023-11-21 09:20:27', 'https://x.com', 2.5, 'desc';
 UPDATE property_review
-SET score = 99
+SET score = 1
 WHERE property_id = '702e7e08-9635-4b13-ae37-3de43c82fc83';
 
 -- Delete
