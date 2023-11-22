@@ -5,7 +5,6 @@ SELECT property_id, dweller_email, score
 FROM property_review;
 
 -- Query 1
--- NATURAL JOIN --> INNER JOIN
 SELECT property_review.property_id, AVG(score) AS average_score, COUNT(*) AS review_count
 FROM property_review
          JOIN property_listing_for_rent ON property_review.property_id = property_listing_for_rent.property_id

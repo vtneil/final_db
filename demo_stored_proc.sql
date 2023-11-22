@@ -1,6 +1,6 @@
 -- PROCEDURE 1
 
-CREATE OR REPLACE PROCEDURE init_transaction(
+CREATE OR REPLACE PROCEDURE init_rent_transaction(
     prpty_id UUID,
     dwllr_email VARCHAR(319),
     rent_start_date TIMESTAMP,
@@ -66,9 +66,10 @@ ORDER BY end_date DESC;
 -- Procedure 2
 SELECT *
 FROM transaction
-ORDER BY timestamp DESC;
+ORDER BY timestamp DESC
+LIMIT 10;
 
-CALL init_transaction(
+CALL init_rent_transaction(
         '41a448d4-43ec-411a-a692-2d68e06e0282',
         'James.Merlin@vt.in.th',
         '2024-12-18 20:37:36.000000',
@@ -80,4 +81,5 @@ CALL init_transaction(
 
 SELECT *
 FROM transaction
-ORDER BY timestamp DESC;
+ORDER BY timestamp DESC
+LIMIT 10;
