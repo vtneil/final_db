@@ -64,8 +64,9 @@ FROM advertisement
 ORDER BY end_date DESC;
 
 -- Procedure 2
-SELECT *
+SELECT transaction.transaction_id, property_id, timestamp, payment_method, is_released, is_canceled, amount
 FROM transaction
+INNER JOIN rent ON rent.transaction_id = transaction.transaction_id
 ORDER BY timestamp DESC
 LIMIT 10;
 
@@ -79,7 +80,8 @@ CALL init_rent_transaction(
         99000
      );
 
-SELECT *
+SELECT transaction.transaction_id, property_id, timestamp, payment_method, is_released, is_canceled, amount
 FROM transaction
+INNER JOIN rent ON rent.transaction_id = transaction.transaction_id
 ORDER BY timestamp DESC
 LIMIT 10;
